@@ -1,0 +1,4 @@
+app/code/community/kasterweb/Promotion/  app/code/community/kasterweb/Promotion/
+app/etc/modules/Kasterweb_Promotion.xml  app/etc/modules/Kasterweb_Promotion.xml
+app/locale/pt_BR/kasterweb/promotion.csv  app/locale/pt_BR/kasterweb/promotion.csv
+app/design/frontend/base/default/template/kasterweb/widget/list_production_in_promotion.phtml  app/design/frontend/base/default/template/kasterweb/widget/list_production_in_promotion.phtml
