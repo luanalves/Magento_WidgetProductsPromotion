@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<widgets>
+    <kasterweb_promotion type="kasterweb_promotion/promotion" translate="name description" module="kasterweb_promotion">
+        <name>Kasterweb Promotion</name>
+        <description>show products in promotion</description>
+        <parameters>
+            <products_count translate="label">
+                <required>1</required>
+                <visible>1</visible>
+                <value>5</value>
+                <label>Number of Products to Display</label>
+                <type>text</type>
+            </products_count>
+            <title translate="label">
+                <required>1</required>
+                <visible>1</visible>
+                <value>New Products</value>
+                <label>Title to Display</label>
+                <type>text</type>
+            </title>
+            <template>
+                <required>1</required>
+                <visible>1</visible>
+                <label>Template</label>
+                <type>select</type>
+                <value>kasterweb/widget/list_production_in_promotion.phtml</value>
+                <values>
+                    <default translate="label">
+                        <value>kasterweb/widget/list_production_in_promotion.phtml</value>
+                        <label>Template default show products in promotion</label>
+                    </default>
+                </values>
+            </template>
+        </parameters>
+    </kasterweb_promotion>
+</widgets>
