@@ -12,3 +12,6 @@ OR
 
 Execute query,
 "INSERT INTO core_config_data (scope,scope_id,path,value) VALUES ('default',0,'dev/template/allow_symlink',1)"
+
+## Clone Project by Modman
+modman clone https://github.com/luanalves/Magento_WidgetProductsPromotion.git
